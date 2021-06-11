@@ -16,6 +16,12 @@ dependencies {
   compile 'com.github.jhonnymertz:java-wkhtmltopdf-wrapper:1.1.12-RELEASE'
   compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.5'
   compile group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.5'
+  compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.5'
+  compile group: 'com.documents4j', name: 'documents4j-transformer-msoffice-word', version: '0.2.1'
+  compile group: 'com.documents4j', name: 'documents4j-local', version: '0.2.1'
+  compile group: 'com.documents4j', name: 'documents4j-api', version: '0.2.1'
+  
+  compile group: 'com.google.guava', name: 'guava', version: '23.0'
 
   compile group: 'fr.opensagres.xdocreport', name: 'org.apache.poi.xwpf.converter.core', version: '1.0.6'
   compile group: 'fr.opensagres.xdocreport', name: 'org.apache.poi.xwpf.converter.pdf', version: '1.0.6'
